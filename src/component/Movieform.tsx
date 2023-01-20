@@ -28,7 +28,7 @@ const Movieform = () => {
                 target.style.borderColor = 'grey'
                 let totalMin: number = parseInt(target.value.substring(0, target.value.length - 1));
                 let hour: number = parseInt((totalMin / 60).toString())
-                let minutes = (totalMin * 10) / 60
+                let minutes = ((totalMin%60) * 10) / 60
                 str = hour + '.' + minutes.toString().substring(0, 1) + 'Hrs '
                 console.log(str)
                 msg[2] = ''
