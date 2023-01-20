@@ -1,0 +1,15 @@
+.form-control {
+    border: 1px solid grey;
+}
+li:nth-child( odd ) {
+    border-bottom:2px solid red 
+}
+li:nth-child( even ) {
+    border-bottom:2px solid green 
+}
+.border-danger{
+    border-color: rgb(235, 195, 195) !important;
+    background-color: rgb(241, 202, 202) !important;
+    color: rgb(185, 0, 0);
+    min-height: 50px;
+}
